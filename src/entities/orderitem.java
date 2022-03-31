@@ -32,5 +32,7 @@ public class orderitem {
 	public void setProduct(product product) {
 		this.product = product;
 	}
-
+    public Double subtotal(){
+        return quantity * price;
+    }
 }

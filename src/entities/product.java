@@ -1,12 +1,12 @@
 package entities;
 
-public class product {
+public class Product {
     private String name;
     private Double price;
     
-    public product(){
+    public Product(){
     }
-    public product(String name, Double price){
+    public Product(String name, Double price){
         this.name = name;
         this.price = price;
     }

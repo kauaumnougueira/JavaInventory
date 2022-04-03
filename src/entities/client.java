@@ -1,14 +1,14 @@
 package entities;
 import java.util.Date;
 
-public class client {
+public class Client {
     private String name;
     private String email;
     private Date birthDate;
 
-    public client(){
+    public Client(){
     }
-    public client(String name, String email, Date birthDate){
+    public Client(String name, String email, Date birthDate){
         this.birthDate = birthDate;
         this.name = name;
         this.email = email;
